@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="280" height="64" viewBox="0 0 280 64" role="img" aria-labelledby="t d">
-<title id="t">EMAIL</title>
-<desc id="d">EMAIL</desc>
+<title id="t">LINKEDIN</title>
+<desc id="d">LINKEDIN</desc>
 <defs>
   <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
     <feGaussianBlur stdDeviation="3" result="b"/>
@@ -42,13 +42,11 @@
   }.pulse { animation: beacon 2s ease-in-out infinite; } @keyframes beacon { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
 </style>
 
-
-<path d="M14,2 H278 V50 L266,62 H2 V14 Z" fill="#0c0320" stroke="#39ff88" stroke-width="1.5"/>
+<path d="M14,2 H278 V50 L266,62 H2 V14 Z" fill="#120a26" stroke="#ff2a6d" stroke-width="1.5"/>
 <g transform="translate(18,18)">
-  <rect width="28" height="28" fill="none" stroke="#39ff88" stroke-width="1.5"/>
-  <rect x="7" y="7" width="14" height="14" fill="#39ff88" class="pulse"/>
+  <rect width="28" height="28" fill="none" stroke="#ff2a6d" stroke-width="1.5"/>
+  <rect x="7" y="7" width="14" height="14" fill="#ff2a6d" class="pulse"/>
 </g>
-<text x="60" y="30" font-size="15" font-weight="800" fill="#e6f7ff" letter-spacing="1.5">EMAIL</text>
-<text x="60" y="47" font-size="10.5" fill="#39ff88" letter-spacing="2">PORT 25 · CONNECT ▸</text>
-
+<text x="60" y="30" font-size="15" font-weight="800" fill="#e6f7ff" letter-spacing="1.5">LINKEDIN</text>
+<text x="60" y="47" font-size="10.5" fill="#ff2a6d" letter-spacing="2">PORT 22 · CONNECT ▸</text>
 </svg>

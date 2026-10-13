@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="t d">
+<title id="t">Career timeline as a git graph</title>
+<desc id="d">2013 — 2017: init: B.Eng Electronic Info Eng. (Inner Mongolia Univ. of Technology); Feb 2017: Intern → Full-time in 5 months (China DataCom); 2017 — 2021: Software Engineer (Java/Spring · telecom &amp; gov); 2021 — 2022: Software Group Leader (China DataCom); 2021 — 2023: M.Eng · High Distinction (Arizona State University); 2023 — 2025: M.CS · Distinction (University of Wollongong); 2025 —: DentistDSS goes live (Solo architect &amp; developer); 2026: PMP® certified (PMI)</desc>
+<defs>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="0.8999999999999999" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowS" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="0.42" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowL" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4.8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="2" fill="#000" opacity="0.05"/>
+  </pattern>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ddd3f2" opacity="0.35"/>
+  </pattern>
+  <linearGradient id="neon" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#d1004f"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#00808f"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+    <stop offset="0.6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+  .cjk { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace, 'Noto Sans Mono CJK SC','Noto Sans CJK SC','PingFang SC','Hiragino Sans','Microsoft YaHei',sans-serif; }
+  .flicker { animation: flicker 6s linear infinite; }
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0.35; }
+  }
+  .blink { animation: blink 1.1s steps(2, start) infinite; }
+  @keyframes blink { to { visibility: hidden; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; }
+  }
+  /* Entrance animations use backwards fill: if they never run, everything is still visible. */
+  .draw { animation: draw 2.4s ease-out backwards; }
+  @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+  .node { animation: pop 0.5s ease-out backwards; }
+  @keyframes pop { from { opacity: 0; } to { opacity: 1; } }
+  .ping { animation: ping 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ping { from { transform: scale(0.6); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
+
+</style>
+
+
+<g>
+  <path d="M24,6 H1194 V436 L1176,454 H6 V24 Z" fill="#fbf8ff" fill-opacity="1"/><path d="M24,6 H1194 V436 L1176,454 H6 V24 Z" fill="url(#scan)"/>
+  <path d="M24,6 H1194 V436 L1176,454 H6 V24 Z" fill="none" stroke="#d1004f" stroke-opacity="0.6" stroke-width="1.2"/>
+  <path d="M32,6 h350.19999999999993 l-10,18 h-330.19999999999993 Z" fill="#d1004f" opacity="0.92"/>
+  <text x="44" y="19.5" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.5">$ git log --graph --pretty=career</text>
+  <text x="1180" y="28" font-size="11" fill="#d1004f" text-anchor="end" letter-spacing="1.5" opacity="0.85">CAREER, VERSION CONTROLLED</text>
+  <path d="M4,428 v28 h28" fill="none" stroke="#d1004f" stroke-width="2.5"/>
+  <path d="M1196,32 v-28 h-28" fill="none" stroke="#d1004f" stroke-width="2.5"/>
+  <rect x="1134" y="450" width="40" height="3" fill="#d1004f" opacity="0.7"/>
+  <rect x="1178" y="450" width="8" height="3" fill="#d1004f"/>
+</g>
+<text x="56" y="68" font-size="12.5" fill="#6e6a86">// Every commit delivers real value.</text>
+<line x1="150" x2="150" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="150" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2013</text><line x1="214" x2="214" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="214" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2014</text><line x1="278.1" x2="278.1" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="278.1" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2015</text><line x1="342.1" x2="342.1" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="342.1" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2016</text><line x1="406.1" x2="406.1" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="406.1" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2017</text><line x1="470.1" x2="470.1" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="470.1" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2018</text><line x1="534.2" x2="534.2" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="534.2" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2019</text><line x1="598.2" x2="598.2" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="598.2" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2020</text><line x1="662.2" x2="662.2" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="662.2" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2021</text><line x1="726.3" x2="726.3" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="726.3" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2022</text><line x1="790.3" x2="790.3" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="790.3" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2023</text><line x1="854.3" x2="854.3" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="854.3" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2024</text><line x1="918.3" x2="918.3" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="918.3" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2025</text><line x1="982.4" x2="982.4" y1="92" y2="408" stroke="#ddd3f2" stroke-opacity="0.35" stroke-dasharray="2 6"/><text x="982.4" y="430" font-size="11" fill="#6e6a86" text-anchor="middle">2026</text>
+<path d="M194.8,140 C303.7,140 303.7,250 412.5,250" fill="none" stroke="#ff2a6d" stroke-width="1.8" stroke-opacity="0.55" stroke-dasharray="5 4"/><path d="M675,250 C687.8,250 687.8,140 700.6,140" fill="none" stroke="#05d9e8" stroke-width="1.8" stroke-opacity="0.55" stroke-dasharray="5 4"/><path d="M809.5,140 C873.6,140 873.6,360 937.6,360" fill="none" stroke="#f9f002" stroke-width="1.8" stroke-opacity="0.55" stroke-dasharray="5 4"/>
+<text x="56" y="144" font-size="12" fill="#05d9e8" letter-spacing="2">EDU</text><line x1="56" x2="1040" y1="140" y2="140" stroke="#05d9e8" stroke-opacity="0.12" stroke-dasharray="1 5"/><rect x="194.8" y="133" width="243.3" height="14" fill="#05d9e8" opacity="0.07"/><line x1="194.8" x2="438.1" y1="140" y2="140" stroke="#05d9e8" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0s"/><circle cy="140" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="194.8;438.1" dur="3.2s" repeatCount="indefinite"/></circle><rect x="700.6" y="133" width="89.7" height="14" fill="#05d9e8" opacity="0.07"/><line x1="700.6" x2="790.3" y1="140" y2="140" stroke="#05d9e8" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0.3s"/><circle cy="140" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="700.6;790.3" dur="2.1s" repeatCount="indefinite"/></circle><rect x="809.5" y="133" width="108.8" height="14" fill="#05d9e8" opacity="0.07"/><line x1="809.5" x2="918.3" y1="140" y2="140" stroke="#05d9e8" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0.6s"/><circle cy="140" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="809.5;918.3" dur="2.3s" repeatCount="indefinite"/></circle><text x="56" y="254" font-size="12" fill="#ff2a6d" letter-spacing="2">WORK</text><line x1="56" x2="1040" y1="250" y2="250" stroke="#ff2a6d" stroke-opacity="0.12" stroke-dasharray="1 5"/><rect x="412.5" y="243" width="32" height="14" fill="#ff2a6d" opacity="0.07"/><line x1="412.5" x2="444.5" y1="250" y2="250" stroke="#ff2a6d" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0.4s"/><rect x="444.5" y="243" width="230.5" height="14" fill="#ff2a6d" opacity="0.07"/><line x1="444.5" x2="675" y1="250" y2="250" stroke="#ff2a6d" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0.7s"/><circle cy="250" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="444.5;675" dur="3.1s" repeatCount="indefinite"/></circle><rect x="675" y="243" width="96.1" height="14" fill="#ff2a6d" opacity="0.07"/><line x1="675" x2="771.1" y1="250" y2="250" stroke="#ff2a6d" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:1s"/><circle cy="250" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="675;771.1" dur="2.2s" repeatCount="indefinite"/></circle><text x="56" y="364" font-size="12" fill="#f9f002" letter-spacing="2">BUILD</text><line x1="56" x2="1040" y1="360" y2="360" stroke="#f9f002" stroke-opacity="0.12" stroke-dasharray="1 5"/><rect x="937.6" y="353" width="57.6" height="14" fill="#f9f002" opacity="0.07"/><line x1="937.6" x2="995.2" y1="360" y2="360" stroke="#f9f002" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:0.8s"/><circle cy="360" r="3.2" fill="#d1004f" filter="url(#glow)"><animate attributeName="cx" values="937.6;995.2" dur="1.9s" repeatCount="indefinite"/></circle><rect x="995.2" y="353" width="37.3" height="14" fill="#f9f002" opacity="0.07"/><line x1="995.2" x2="1032.5" y1="360" y2="360" stroke="#f9f002" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" class="draw" style="animation-delay:1.1s"/>
+<g class="node" style="animation-delay:0.3s">
+      <circle cx="194.8" cy="140" r="9" fill="#ffffff" stroke="#05d9e8" stroke-width="2.5"/>
+      <circle cx="194.8" cy="140" r="3.5" fill="#05d9e8"/>
+      <line x1="194.8" x2="194.8" y1="130" y2="122" stroke="#05d9e8" stroke-opacity="0.6"/>
+      <g transform="translate(186.8,0)">
+        <text y="92" font-size="10.5" text-anchor="start" fill="#a87f00" opacity="0.85">root <tspan fill="#6e6a86">2013 — 2017</tspan></text>
+        <text y="107" font-size="12.5" text-anchor="start" fill="#1f1235" font-weight="700">init: B.Eng Electronic Info Eng.</text>
+        <text y="121" font-size="11" text-anchor="start" fill="#05d9e8" opacity="0.85">Inner Mongolia Univ. of Technology</text>
+      </g>
+    </g><g class="node" style="animation-delay:0.6s">
+      <circle cx="412.5" cy="250" r="9" fill="#ffffff" stroke="#ff2a6d" stroke-width="2.5"/>
+      <circle cx="412.5" cy="250" r="3.5" fill="#ff2a6d"/>
+      <line x1="412.5" x2="412.5" y1="260" y2="267" stroke="#ff2a6d" stroke-opacity="0.6"/>
+      <g transform="translate(420.5,0)">
+        <text y="280" font-size="10.5" text-anchor="end" fill="#a87f00" opacity="0.85">9f1e5a7 <tspan fill="#6e6a86">Feb 2017</tspan></text>
+        <text y="295" font-size="12.5" text-anchor="end" fill="#1f1235" font-weight="700">Intern → Full-time in 5 months</text>
+        <text y="309" font-size="11" text-anchor="end" fill="#ff2a6d" opacity="0.85">China DataCom</text>
+      </g>
+    </g><g class="node" style="animation-delay:0.9s">
+      <circle cx="444.5" cy="250" r="9" fill="#ffffff" stroke="#ff2a6d" stroke-width="2.5"/>
+      <circle cx="444.5" cy="250" r="3.5" fill="#ff2a6d"/>
+      <line x1="444.5" x2="444.5" y1="240" y2="232" stroke="#ff2a6d" stroke-opacity="0.6"/>
+      <g transform="translate(436.5,0)">
+        <text y="202" font-size="10.5" text-anchor="start" fill="#a87f00" opacity="0.85">b4c8d02 <tspan fill="#6e6a86">2017 — 2021</tspan></text>
+        <text y="217" font-size="12.5" text-anchor="start" fill="#1f1235" font-weight="700">Software Engineer</text>
+        <text y="231" font-size="11" text-anchor="start" fill="#ff2a6d" opacity="0.85">Java/Spring · telecom &amp; gov</text>
+      </g>
+    </g><g class="node" style="animation-delay:1.2s">
+      <circle cx="675" cy="250" r="9" fill="#ffffff" stroke="#ff2a6d" stroke-width="2.5"/>
+      <circle cx="675" cy="250" r="3.5" fill="#ff2a6d"/>
+      <line x1="675" x2="675" y1="260" y2="267" stroke="#ff2a6d" stroke-opacity="0.6"/>
+      <g transform="translate(675,0)">
+        <text y="280" font-size="10.5" text-anchor="middle" fill="#a87f00" opacity="0.85">e7a3f91 <tspan fill="#6e6a86">2021 — 2022</tspan></text>
+        <text y="295" font-size="12.5" text-anchor="middle" fill="#1f1235" font-weight="700">Software Group Leader</text>
+        <text y="309" font-size="11" text-anchor="middle" fill="#ff2a6d" opacity="0.85">China DataCom</text>
+      </g>
+    </g><g class="node" style="animation-delay:1.5s">
+      <circle cx="700.6" cy="140" r="9" fill="#ffffff" stroke="#05d9e8" stroke-width="2.5"/>
+      <circle cx="700.6" cy="140" r="3.5" fill="#05d9e8"/>
+      <line x1="700.6" x2="700.6" y1="130" y2="122" stroke="#05d9e8" stroke-opacity="0.6"/>
+      <g transform="translate(700.6,0)">
+        <text y="92" font-size="10.5" text-anchor="middle" fill="#a87f00" opacity="0.85">a51c0de <tspan fill="#6e6a86">2021 — 2023</tspan></text>
+        <text y="107" font-size="12.5" text-anchor="middle" fill="#1f1235" font-weight="700">M.Eng · High Distinction</text>
+        <text y="121" font-size="11" text-anchor="middle" fill="#05d9e8" opacity="0.85">Arizona State University</text>
+      </g>
+    </g><g class="node" style="animation-delay:1.8s">
+      <circle cx="809.5" cy="140" r="9" fill="#ffffff" stroke="#05d9e8" stroke-width="2.5"/>
+      <circle cx="809.5" cy="140" r="3.5" fill="#05d9e8"/>
+      <line x1="809.5" x2="809.5" y1="150" y2="157" stroke="#05d9e8" stroke-opacity="0.6"/>
+      <g transform="translate(809.5,0)">
+        <text y="170" font-size="10.5" text-anchor="middle" fill="#a87f00" opacity="0.85">c0ffee1 <tspan fill="#6e6a86">2023 — 2025</tspan></text>
+        <text y="185" font-size="12.5" text-anchor="middle" fill="#1f1235" font-weight="700">M.CS · Distinction</text>
+        <text y="199" font-size="11" text-anchor="middle" fill="#05d9e8" opacity="0.85">University of Wollongong</text>
+      </g>
+    </g><g class="node" style="animation-delay:2.1s">
+      <circle cx="937.6" cy="360" r="9" fill="#ffffff" stroke="#f9f002" stroke-width="2.5"/>
+      <circle cx="937.6" cy="360" r="3.5" fill="#f9f002"/>
+      <line x1="937.6" x2="937.6" y1="350" y2="342" stroke="#f9f002" stroke-opacity="0.6"/>
+      <g transform="translate(945.6,0)">
+        <text y="312" font-size="10.5" text-anchor="end" fill="#a87f00" opacity="0.85">d5517c2 <tspan fill="#6e6a86">2025 —</tspan></text>
+        <text y="327" font-size="12.5" text-anchor="end" fill="#1f1235" font-weight="700">DentistDSS goes live</text>
+        <text y="341" font-size="11" text-anchor="end" fill="#f9f002" opacity="0.85">Solo architect &amp; developer</text>
+      </g>
+    </g><g class="node" style="animation-delay:2.4s">
+      <circle cx="995.2" cy="360" r="9" fill="#ffffff" stroke="#f9f002" stroke-width="2.5"/>
+      <circle cx="995.2" cy="360" r="3.5" fill="#f9f002"/>
+      <line x1="995.2" x2="995.2" y1="370" y2="377" stroke="#f9f002" stroke-opacity="0.6"/>
+      <g transform="translate(1003.2,0)">
+        <text y="390" font-size="10.5" text-anchor="end" fill="#a87f00" opacity="0.85">f00dbad <tspan fill="#6e6a86">2026</tspan></text>
+        <text y="405" font-size="12.5" text-anchor="end" fill="#1f1235" font-weight="700">PMP® certified</text>
+        <text y="419" font-size="11" text-anchor="end" fill="#f9f002" opacity="0.85">PMI</text>
+      </g>
+    </g>
+
+  <g transform="translate(1032.5,360)">
+    <circle r="12" fill="none" stroke="#a87f00" class="ping"/>
+    <circle r="6" fill="#a87f00" filter="url(#glow)"/>
+    <g transform="translate(18,-11)">
+      <rect width="104" height="22" fill="#a87f00"/>
+      <text x="52" y="15.5" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">HEAD → main</text>
+    </g>
+  </g>
+</svg>

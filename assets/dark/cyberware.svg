@@ -43,13 +43,13 @@
   .cell { animation: charge 0.25s ease-out both; }
   @keyframes charge { from { opacity: 0; } to { opacity: 0.95; } }
 </style>
-<rect width="600" height="340" fill="#07010f"/>
 
 
 <g>
-  <path d="M24,6 H594 V316 L576,334 H6 V24 Z" fill="#0c0320" fill-opacity="0.82" stroke="#05d9e8" stroke-opacity="0.55" stroke-width="1.2"/>
+  <path d="M24,6 H594 V316 L576,334 H6 V24 Z" fill="#120a26" fill-opacity="0.85"/><path d="M24,6 H594 V316 L576,334 H6 V24 Z" fill="url(#scan)"/>
+  <path d="M24,6 H594 V316 L576,334 H6 V24 Z" fill="none" stroke="#05d9e8" stroke-opacity="0.6" stroke-width="1.2"/>
   <path d="M32,6 h209.2 l-10,18 h-189.2 Z" fill="#05d9e8" opacity="0.92"/>
-  <text x="44" y="19.5" font-size="12" font-weight="700" fill="#07010f" letter-spacing="1.5">CYBERWARE IMPLANTS</text>
+  <text x="44" y="19.5" font-size="12" font-weight="700" fill="#0d1117" letter-spacing="1.5">CYBERWARE IMPLANTS</text>
   <text x="580" y="28" font-size="11" fill="#05d9e8" text-anchor="end" letter-spacing="1.5" opacity="0.85">LANGUAGES BY BYTES</text>
   <path d="M4,308 v28 h28" fill="none" stroke="#05d9e8" stroke-width="2.5"/>
   <path d="M596,32 v-28 h-28" fill="none" stroke="#05d9e8" stroke-width="2.5"/>
@@ -130,5 +130,4 @@
       <text x="518" y="13" font-size="12.5" fill="#8b7fb8" text-anchor="end">2.6%</text>
     </g>
 <text x="36" y="318" font-size="10.5" fill="#8b7fb8" letter-spacing="1.2">// aggregated across owned non-fork repositories</text>
-<rect width="600" height="340" fill="url(#scan)" pointer-events="none"/>
 </svg>

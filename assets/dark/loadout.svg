@@ -43,12 +43,12 @@
   .mod { animation: mod 0.4s ease-out both; }
   @keyframes mod { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
 </style>
-<rect width="1200" height="378" fill="#07010f"/>
 
 <g>
-  <path d="M24,6 H1194 V354 L1176,372 H6 V24 Z" fill="#0c0320" fill-opacity="0.82" stroke="#f9f002" stroke-opacity="0.55" stroke-width="1.2"/>
+  <path d="M24,6 H1194 V354 L1176,372 H6 V24 Z" fill="#120a26" fill-opacity="0.85"/><path d="M24,6 H1194 V354 L1176,372 H6 V24 Z" fill="url(#scan)"/>
+  <path d="M24,6 H1194 V354 L1176,372 H6 V24 Z" fill="none" stroke="#f9f002" stroke-opacity="0.6" stroke-width="1.2"/>
   <path d="M32,6 h199.79999999999998 l-10,18 h-179.79999999999998 Z" fill="#f9f002" opacity="0.92"/>
-  <text x="44" y="19.5" font-size="12" font-weight="700" fill="#07010f" letter-spacing="1.5">CYBERDECK LOADOUT</text>
+  <text x="44" y="19.5" font-size="12" font-weight="700" fill="#0d1117" letter-spacing="1.5">CYBERDECK LOADOUT</text>
   <text x="1180" y="28" font-size="11" fill="#f9f002" text-anchor="end" letter-spacing="1.5" opacity="0.85">EQUIPPED MODULES</text>
   <path d="M4,346 v28 h28" fill="none" stroke="#f9f002" stroke-width="2.5"/>
   <path d="M1196,32 v-28 h-28" fill="none" stroke="#f9f002" stroke-width="2.5"/>
@@ -60,35 +60,35 @@
       <rect width="4" height="26" fill="#ff2a6d"/>
       <text x="14" y="17.5" font-size="12.5" font-weight="800" fill="#ff2a6d" letter-spacing="2">BACKEND</text>
       <text x="195.6" y="17.5" font-size="10" fill="#ff2a6d" text-anchor="end" opacity="0.7">SLOT 1</text><g class="mod" style="animation-delay:0s">
-        <rect x="12" y="44" width="64" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="44" width="64" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="44" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="59.5" font-size="12.5" fill="#e6f7ff">Java</text>
       </g><g class="mod" style="animation-delay:0.1s">
-        <rect x="12" y="74" width="116.5" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="74" width="116.5" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="74" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="89.5" font-size="12.5" fill="#e6f7ff">Spring Boot</text>
       </g><g class="mod" style="animation-delay:0.1s">
-        <rect x="12" y="104" width="124" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="104" width="124" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="104" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="119.5" font-size="12.5" fill="#e6f7ff">Spring Cloud</text>
       </g><g class="mod" style="animation-delay:0.2s">
-        <rect x="12" y="134" width="139" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="134" width="139" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="134" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="149.5" font-size="12.5" fill="#e6f7ff">Python / Flask</text>
       </g><g class="mod" style="animation-delay:0.3s">
-        <rect x="12" y="164" width="64" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="164" width="64" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="164" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="179.5" font-size="12.5" fill="#e6f7ff">REST</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="194" width="124" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="194" width="124" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="194" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="209.5" font-size="12.5" fill="#e6f7ff">OAuth2 / JWT</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="224" width="86.5" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="224" width="86.5" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="224" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="239.5" font-size="12.5" fill="#e6f7ff">MyBatis</text>
       </g><g class="mod" style="animation-delay:0.5s">
-        <rect x="12" y="254" width="101.5" height="22" fill="#07010f" stroke="#ff2a6d" stroke-opacity="0.6"/>
+        <rect x="12" y="254" width="101.5" height="22" fill="#0d1117" stroke="#ff2a6d" stroke-opacity="0.6"/>
         <rect x="12" y="254" width="4" height="22" fill="#ff2a6d"/>
         <text x="24" y="269.5" font-size="12.5" fill="#e6f7ff">Hibernate</text>
       </g></g><g transform="translate(267.6,70)">
@@ -97,31 +97,31 @@
       <rect width="4" height="26" fill="#05d9e8"/>
       <text x="14" y="17.5" font-size="12.5" font-weight="800" fill="#05d9e8" letter-spacing="2">FRONTEND</text>
       <text x="195.6" y="17.5" font-size="10" fill="#05d9e8" text-anchor="end" opacity="0.7">SLOT 2</text><g class="mod" style="animation-delay:0.2s">
-        <rect x="12" y="44" width="109" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="44" width="109" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="44" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="59.5" font-size="12.5" fill="#e6f7ff">TypeScript</text>
       </g><g class="mod" style="animation-delay:0.2s">
-        <rect x="12" y="74" width="71.5" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="74" width="71.5" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="74" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="89.5" font-size="12.5" fill="#e6f7ff">React</text>
       </g><g class="mod" style="animation-delay:0.3s">
-        <rect x="12" y="104" width="71.5" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="104" width="71.5" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="104" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="119.5" font-size="12.5" fill="#e6f7ff">Vue 3</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="134" width="94" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="134" width="94" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="134" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="149.5" font-size="12.5" fill="#e6f7ff">Tailwind</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="164" width="56.5" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="164" width="56.5" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="164" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="179.5" font-size="12.5" fill="#e6f7ff">PWA</text>
       </g><g class="mod" style="animation-delay:0.5s">
-        <rect x="12" y="194" width="94" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="194" width="94" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="194" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="209.5" font-size="12.5" fill="#e6f7ff">Electron</text>
       </g><g class="mod" style="animation-delay:0.6s">
-        <rect x="12" y="224" width="94" height="22" fill="#07010f" stroke="#05d9e8" stroke-opacity="0.6"/>
+        <rect x="12" y="224" width="94" height="22" fill="#0d1117" stroke="#05d9e8" stroke-opacity="0.6"/>
         <rect x="12" y="224" width="4" height="22" fill="#05d9e8"/>
         <text x="24" y="239.5" font-size="12.5" fill="#e6f7ff">Three.js</text>
       </g></g><g transform="translate(489.2,70)">
@@ -130,35 +130,35 @@
       <rect width="4" height="26" fill="#f9f002"/>
       <text x="14" y="17.5" font-size="12.5" font-weight="800" fill="#f9f002" letter-spacing="2">DATA &amp; ML</text>
       <text x="195.6" y="17.5" font-size="10" fill="#f9f002" text-anchor="end" opacity="0.7">SLOT 3</text><g class="mod" style="animation-delay:0.3s">
-        <rect x="12" y="44" width="109" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="44" width="109" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="44" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="59.5" font-size="12.5" fill="#e6f7ff">PostgreSQL</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="74" width="86.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="74" width="86.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="74" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="89.5" font-size="12.5" fill="#e6f7ff">MongoDB</text>
       </g><g class="mod" style="animation-delay:0.4s">
-        <rect x="12" y="104" width="71.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="104" width="71.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="104" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="119.5" font-size="12.5" fill="#e6f7ff">MySQL</text>
       </g><g class="mod" style="animation-delay:0.5s">
-        <rect x="12" y="134" width="71.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="134" width="71.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="134" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="149.5" font-size="12.5" fill="#e6f7ff">Redis</text>
       </g><g class="mod" style="animation-delay:0.6s">
-        <rect x="12" y="164" width="86.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="164" width="86.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="164" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="179.5" font-size="12.5" fill="#e6f7ff">PyTorch</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="194" width="109" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="194" width="109" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="194" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="209.5" font-size="12.5" fill="#e6f7ff">TensorFlow</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="224" width="71.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="224" width="71.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="224" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="239.5" font-size="12.5" fill="#e6f7ff">Spark</text>
       </g><g class="mod" style="animation-delay:0.8s">
-        <rect x="12" y="254" width="56.5" height="22" fill="#07010f" stroke="#f9f002" stroke-opacity="0.6"/>
+        <rect x="12" y="254" width="56.5" height="22" fill="#0d1117" stroke="#f9f002" stroke-opacity="0.6"/>
         <rect x="12" y="254" width="4" height="22" fill="#f9f002"/>
         <text x="24" y="269.5" font-size="12.5" fill="#e6f7ff">DSP</text>
       </g></g><g transform="translate(710.8,70)">
@@ -167,35 +167,35 @@
       <rect width="4" height="26" fill="#39ff88"/>
       <text x="14" y="17.5" font-size="12.5" font-weight="800" fill="#39ff88" letter-spacing="2">CLOUD &amp; OPS</text>
       <text x="195.6" y="17.5" font-size="10" fill="#39ff88" text-anchor="end" opacity="0.7">SLOT 4</text><g class="mod" style="animation-delay:0.5s">
-        <rect x="12" y="44" width="56.5" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="44" width="56.5" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="44" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="59.5" font-size="12.5" fill="#e6f7ff">AWS</text>
       </g><g class="mod" style="animation-delay:0.5s">
-        <rect x="12" y="74" width="124" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="74" width="124" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="74" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="89.5" font-size="12.5" fill="#e6f7ff">Oracle Cloud</text>
       </g><g class="mod" style="animation-delay:0.6s">
-        <rect x="12" y="104" width="79" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="104" width="79" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="104" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="119.5" font-size="12.5" fill="#e6f7ff">Docker</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="134" width="109" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="134" width="109" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="134" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="149.5" font-size="12.5" fill="#e6f7ff">Kubernetes</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="164" width="86.5" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="164" width="86.5" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="164" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="179.5" font-size="12.5" fill="#e6f7ff">Jenkins</text>
       </g><g class="mod" style="animation-delay:0.8s">
-        <rect x="12" y="194" width="71.5" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="194" width="71.5" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="194" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="209.5" font-size="12.5" fill="#e6f7ff">Nginx</text>
       </g><g class="mod" style="animation-delay:0.9s">
-        <rect x="12" y="224" width="101.5" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="224" width="101.5" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="224" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="239.5" font-size="12.5" fill="#e6f7ff">WireGuard</text>
       </g><g class="mod" style="animation-delay:0.9s">
-        <rect x="12" y="254" width="71.5" height="22" fill="#07010f" stroke="#39ff88" stroke-opacity="0.6"/>
+        <rect x="12" y="254" width="71.5" height="22" fill="#0d1117" stroke="#39ff88" stroke-opacity="0.6"/>
         <rect x="12" y="254" width="4" height="22" fill="#39ff88"/>
         <text x="24" y="269.5" font-size="12.5" fill="#e6f7ff">Linux</text>
       </g></g><g transform="translate(932.4,70)">
@@ -204,29 +204,28 @@
       <rect width="4" height="26" fill="#a855f7"/>
       <text x="14" y="17.5" font-size="12.5" font-weight="800" fill="#a855f7" letter-spacing="2">LEADERSHIP</text>
       <text x="195.6" y="17.5" font-size="10" fill="#a855f7" text-anchor="end" opacity="0.7">SLOT 5</text><g class="mod" style="animation-delay:0.6s">
-        <rect x="12" y="44" width="64" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="44" width="64" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="44" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="59.5" font-size="12.5" fill="#e6f7ff">PMP®</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="74" width="131.5" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="74" width="131.5" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="74" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="89.5" font-size="12.5" fill="#e6f7ff">Agile / Scrum</text>
       </g><g class="mod" style="animation-delay:0.7s">
-        <rect x="12" y="104" width="101.5" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="104" width="101.5" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="104" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="119.5" font-size="12.5" fill="#e6f7ff">Risk Mgmt</text>
       </g><g class="mod" style="animation-delay:0.8s">
-        <rect x="12" y="134" width="181.6" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="134" width="181.6" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="134" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="149.5" font-size="12.5" fill="#e6f7ff">Architecture Reviews</text>
       </g><g class="mod" style="animation-delay:0.9s">
-        <rect x="12" y="164" width="101.5" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="164" width="101.5" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="164" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="179.5" font-size="12.5" fill="#e6f7ff">Mentoring</text>
       </g><g class="mod" style="animation-delay:1s">
-        <rect x="12" y="194" width="94" height="22" fill="#07010f" stroke="#a855f7" stroke-opacity="0.6"/>
+        <rect x="12" y="194" width="94" height="22" fill="#0d1117" stroke="#a855f7" stroke-opacity="0.6"/>
         <rect x="12" y="194" width="4" height="22" fill="#a855f7"/>
         <text x="24" y="209.5" font-size="12.5" fill="#e6f7ff">Roadmaps</text>
       </g></g>
-<rect width="1200" height="378" fill="url(#scan)" pointer-events="none"/>
 </svg>
