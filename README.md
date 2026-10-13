@@ -5,12 +5,25 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/terminal.svg"><img src="./assets/light/terminal.svg" alt="whoami terminal" width="100%"></picture>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/skyline.svg"><img src="./assets/light/skyline.svg" alt="Contribution skyline — each tower is one week of GitHub activity" width="100%"></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img src="./assets/light/stats.svg" alt="GitHub stats" width="49%"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/cyberware.svg"><img src="./assets/light/cyberware.svg" alt="Top languages" width="49%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/loadout.svg"><img src="./assets/light/loadout.svg" alt="Skills loadout" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/career.svg"><img src="./assets/light/career.svg" alt="Career timeline as a git graph" width="100%"></picture>
+
+<a href="https://dentist.mizhifei.press"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-dentistdss.svg"><img src="./assets/light/project-dentistdss.svg" alt="DentistDSS — AI CLINIC PLATFORM" width="49%"></picture></a>
+<a href="https://github.com/zhifeimi/one-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-one-memory.svg"><img src="./assets/light/project-one-memory.svg" alt="one-memory — AGENT CONTINUITY" width="49%"></picture></a>
+
+<a href="https://github.com/zhifeimi/car-park"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-carpark.svg"><img src="./assets/light/project-carpark.svg" alt="CarPark — PARKING RESERVATION" width="49%"></picture></a>
+<a href="https://github.com/zhifeimi/lms_noise_cancellation"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-lms.svg"><img src="./assets/light/project-lms.svg" alt="LMS Noise Cancel — ML / DSP" width="49%"></picture></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-homelab.svg"><img src="./assets/light/project-homelab.svg" alt="Home Lab — SELF-HOSTED INFRA" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/project-mystical.svg"><img src="./assets/light/project-mystical.svg" alt="AMysticalJourney — XIUXIAN PIXEL ARPG" width="49%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/syslog.svg"><img src="./assets/light/syslog.svg" alt="Recent public activity" width="100%"></picture>
 
 <a href="https://www.zhifeis.tech"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/link-site.svg"><img src="./assets/light/link-site.svg" alt="ZHIFEIS.TECH" width="24%"></picture></a>
 <a href="https://www.linkedin.com/in/zhifeimi/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/link-linkedin.svg"><img src="./assets/light/link-linkedin.svg" alt="LINKEDIN" width="24%"></picture></a>
