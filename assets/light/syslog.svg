@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="295" viewBox="0 0 1200 295" role="img" aria-labelledby="t d">
 <title id="t">Recent GitHub activity</title>
-<desc id="d">2026-10-24 SPAWN branch upgrade/spring-boot-4.1.2 in dentistdss-microservices; 2026-10-24 PUSH commits → dentistdss-microservices@main; 2026-10-24 PR merged #54 in dentistdss-microservices; 2026-10-24 PUSH commits → dentistdss-microservices@main; 2026-10-24 PUSH commits → dentistdss-microservices@upgrade/spring-boot-4.1.2; 2026-10-24 PR opened #54 in dentistdss-microservices; 2026-10-24 PUSH commits → dentistdss-microservices@upgrade/spring-boot-4.1.2</desc>
+<desc id="d">2026-10-25 PUSH commits → dentistdss-pwa@main; 2026-10-25 PUSH commits → dentistdss-microservices@feat/genai-openai-compatible-prod; 2026-10-25 PUSH commits → dentistdss-pwa@main; 2026-10-24 PUSH commits → dentistdss-microservices@main; 2026-10-24 SPAWN branch fix/mongoconfig-file-mode in dentistdss-microservices; 2026-10-25 PR merged #63 in dentistdss-microservices; 2026-10-25 PR opened #63 in dentistdss-microservices</desc>
 <defs>
   <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
     <feGaussianBlur stdDeviation="0.8999999999999999" result="b"/>
@@ -53,46 +53,46 @@
   <rect x="1134" y="285" width="40" height="3" fill="#0a7f42" opacity="0.7"/>
   <rect x="1178" y="285" width="8" height="3" fill="#d1004f"/>
 </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0286;0.0357;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="84" font-size="13" fill="#6e6a86">[2026-10-24 13:49]</text>
-      <rect x="226" y="71" width="76" height="18" fill="#0a7f42" fill-opacity="0.14" stroke="#0a7f42" stroke-opacity="0.7"/>
-      <text x="264" y="84" font-size="11.5" fill="#0a7f42" text-anchor="middle" font-weight="800" letter-spacing="1">SPAWN</text>
-      <text x="318" y="84" font-size="13.5" fill="#1f1235">branch upgrade/spring-boot-4.1.2 in dentistdss-microservices</text>
+      <text x="46" y="84" font-size="13" fill="#6e6a86">[2026-10-25 12:22]</text>
+      <rect x="226" y="71" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
+      <text x="264" y="84" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
+      <text x="318" y="84" font-size="13.5" fill="#1f1235">commits → dentistdss-pwa@main</text>
       <text x="1154" y="84" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0536;0.0607;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="111" font-size="13" fill="#6e6a86">[2026-10-24 14:24]</text>
+      <text x="46" y="111" font-size="13" fill="#6e6a86">[2026-10-25 05:13]</text>
       <rect x="226" y="98" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
       <text x="264" y="111" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
-      <text x="318" y="111" font-size="13.5" fill="#1f1235">commits → dentistdss-microservices@main</text>
+      <text x="318" y="111" font-size="13.5" fill="#1f1235">commits → dentistdss-microservices@feat/genai-openai-compatible-prod</text>
       <text x="1154" y="111" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0786;0.0857;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="138" font-size="13" fill="#6e6a86">[2026-10-24 14:24]</text>
-      <rect x="226" y="125" width="76" height="18" fill="#d1004f" fill-opacity="0.14" stroke="#d1004f" stroke-opacity="0.7"/>
-      <text x="264" y="138" font-size="11.5" fill="#d1004f" text-anchor="middle" font-weight="800" letter-spacing="1">PR</text>
-      <text x="318" y="138" font-size="13.5" fill="#1f1235">merged #54 in dentistdss-microservices</text>
+      <text x="46" y="138" font-size="13" fill="#6e6a86">[2026-10-25 11:11]</text>
+      <rect x="226" y="125" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
+      <text x="264" y="138" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
+      <text x="318" y="138" font-size="13.5" fill="#1f1235">commits → dentistdss-pwa@main</text>
       <text x="1154" y="138" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1036;0.1107;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="165" font-size="13" fill="#6e6a86">[2026-10-24 09:20]</text>
+      <text x="46" y="165" font-size="13" fill="#6e6a86">[2026-10-24 07:47]</text>
       <rect x="226" y="152" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
       <text x="264" y="165" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
       <text x="318" y="165" font-size="13.5" fill="#1f1235">commits → dentistdss-microservices@main</text>
       <text x="1154" y="165" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1286;0.1357;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="192" font-size="13" fill="#6e6a86">[2026-10-24 13:59]</text>
-      <rect x="226" y="179" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
-      <text x="264" y="192" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
-      <text x="318" y="192" font-size="13.5" fill="#1f1235">commits → dentistdss-microservices@upgrade/spring-boot-4.1.2</text>
+      <text x="46" y="192" font-size="13" fill="#6e6a86">[2026-10-24 08:01]</text>
+      <rect x="226" y="179" width="76" height="18" fill="#0a7f42" fill-opacity="0.14" stroke="#0a7f42" stroke-opacity="0.7"/>
+      <text x="264" y="192" font-size="11.5" fill="#0a7f42" text-anchor="middle" font-weight="800" letter-spacing="1">SPAWN</text>
+      <text x="318" y="192" font-size="13.5" fill="#1f1235">branch fix/mongoconfig-file-mode in dentistdss-microservices</text>
       <text x="1154" y="192" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1536;0.1607;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="219" font-size="13" fill="#6e6a86">[2026-10-24 13:49]</text>
+      <text x="46" y="219" font-size="13" fill="#6e6a86">[2026-10-25 09:20]</text>
       <rect x="226" y="206" width="76" height="18" fill="#d1004f" fill-opacity="0.14" stroke="#d1004f" stroke-opacity="0.7"/>
       <text x="264" y="219" font-size="11.5" fill="#d1004f" text-anchor="middle" font-weight="800" letter-spacing="1">PR</text>
-      <text x="318" y="219" font-size="13.5" fill="#1f1235">opened #54 in dentistdss-microservices</text>
+      <text x="318" y="219" font-size="13.5" fill="#1f1235">merged #63 in dentistdss-microservices</text>
       <text x="1154" y="219" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1786;0.1857;1" dur="14s" repeatCount="indefinite" />
-      <text x="46" y="246" font-size="13" fill="#6e6a86">[2026-10-24 13:49]</text>
-      <rect x="226" y="233" width="76" height="18" fill="#00808f" fill-opacity="0.14" stroke="#00808f" stroke-opacity="0.7"/>
-      <text x="264" y="246" font-size="11.5" fill="#00808f" text-anchor="middle" font-weight="800" letter-spacing="1">PUSH</text>
-      <text x="318" y="246" font-size="13.5" fill="#1f1235">commits → dentistdss-microservices@upgrade/spring-boot-4.1.2</text>
+      <text x="46" y="246" font-size="13" fill="#6e6a86">[2026-10-25 08:50]</text>
+      <rect x="226" y="233" width="76" height="18" fill="#d1004f" fill-opacity="0.14" stroke="#d1004f" stroke-opacity="0.7"/>
+      <text x="264" y="246" font-size="11.5" fill="#d1004f" text-anchor="middle" font-weight="800" letter-spacing="1">PR</text>
+      <text x="318" y="246" font-size="13.5" fill="#1f1235">opened #63 in dentistdss-microservices</text>
       <text x="1154" y="246" font-size="11" fill="#0a7f42" text-anchor="end">OK</text>
     </g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2036;0.2107;1" dur="14s" repeatCount="indefinite" /><text x="46" y="273" font-size="13" fill="#00808f">&gt; tail -f /var/log/netrunner.log<tspan class="blink"> █</tspan></text></g>
 </svg>
