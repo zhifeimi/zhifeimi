@@ -57,6 +57,6 @@
 </g>
 <text x="26" y="100" font-size="13" fill="#6e6a86">Acoustic noise cancellation with Least Mean Squares</text><text x="26" y="120" font-size="13" fill="#6e6a86">adaptive filters — convergence experiments.</text>
 <g transform="translate(26,146)"><rect width="55.6" height="20" fill="#0a7f42" fill-opacity="0.1" stroke="#0a7f42" stroke-opacity="0.5"/><text x="8" y="14" font-size="11" fill="#0a7f42">Python</text></g><g transform="translate(89.6,146)"><rect width="49" height="20" fill="#0a7f42" fill-opacity="0.1" stroke="#0a7f42" stroke-opacity="0.5"/><text x="8" y="14" font-size="11" fill="#0a7f42">NumPy</text></g><g transform="translate(146.6,146)"><rect width="35.8" height="20" fill="#0a7f42" fill-opacity="0.1" stroke="#0a7f42" stroke-opacity="0.5"/><text x="8" y="14" font-size="11" fill="#0a7f42">DSP</text></g><g transform="translate(190.4,146)"><rect width="35.8" height="20" fill="#0a7f42" fill-opacity="0.1" stroke="#0a7f42" stroke-opacity="0.5"/><text x="8" y="14" font-size="11" fill="#0a7f42">LMS</text></g>
-<text x="26" y="192" font-size="10.5" fill="#6e6a86" letter-spacing="1">★ 0   ⑂ 0   ◆ Python   PUSHED 12MO AGO</text>
+<text x="26" y="192" font-size="10.5" fill="#6e6a86" letter-spacing="1">★ 0   ⑂ 0   ◆ Python   PUSHED TODAY</text>
 <text x="560" y="192" font-size="11" fill="#0a7f42" text-anchor="end" letter-spacing="1.5">JACK IN ▸</text>
 </svg>
