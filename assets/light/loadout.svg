@@ -29,7 +29,6 @@
 </defs>
 <style>
   text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
-  .cjk { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace, 'Noto Sans Mono CJK SC','Noto Sans CJK SC','PingFang SC','Hiragino Sans','Microsoft YaHei',sans-serif; }
   .flicker { animation: flicker 6s linear infinite; }
   @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }

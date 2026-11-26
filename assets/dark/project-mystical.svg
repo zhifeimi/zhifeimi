@@ -29,7 +29,6 @@
 </defs>
 <style>
   text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
-  .cjk { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace, 'Noto Sans Mono CJK SC','Noto Sans CJK SC','PingFang SC','Hiragino Sans','Microsoft YaHei',sans-serif; }
   .flicker { animation: flicker 6s linear infinite; }
   @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
@@ -47,7 +46,7 @@
 
 <path d="M22,4 H586 V188 L568,206 H4 V22 Z" fill="#120a26" stroke="#ff2a6d" stroke-opacity="0.6" stroke-width="1.5"/>
 <path d="M4,22 L22,4 H92" fill="none" stroke="#ff2a6d" stroke-width="3"/>
-<g opacity="0.12"><g class="scr" font-size="11" fill="#ff2a6d"><text x="330" y="60">█▓▒░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text><text x="330" y="76">▓▒░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text><text x="330" y="92">▒░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text><text x="330" y="108">░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text><text x="330" y="124">█▓▒░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text><text x="330" y="140">▓▒░ 0x7F 鍵 ░▒▓█ ACCESS DENIED</text></g></g>
+<g opacity="0.12"><g class="scr" font-size="11" fill="#ff2a6d"><text x="330" y="60">█▓▒░ 0x7F # ░▒▓█ ACCESS DENIED</text><text x="330" y="76">▓▒░ 0x7F # ░▒▓█ ACCESS DENIED</text><text x="330" y="92">▒░ 0x7F # ░▒▓█ ACCESS DENIED</text><text x="330" y="108">░ 0x7F # ░▒▓█ ACCESS DENIED</text><text x="330" y="124">█▓▒░ 0x7F # ░▒▓█ ACCESS DENIED</text><text x="330" y="140">▓▒░ 0x7F # ░▒▓█ ACCESS DENIED</text></g></g>
 <text x="26" y="40" font-size="10.5" fill="#ff2a6d" letter-spacing="2.5">// XIUXIAN PIXEL ARPG</text>
 <text x="26" y="70" font-size="24" font-weight="800" fill="#e6f7ff" letter-spacing="1" filter="url(#glowS)">AMysticalJourney</text>
 <g transform="translate(498.6,22)">
